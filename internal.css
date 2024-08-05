@@ -1,0 +1,64 @@
+   * {
+       margin: 0%;
+       padding: 0%;
+   }
+
+   nav {
+       margin: 5px 0%;
+       padding: 15px;
+       border-radius: 5px;
+       background-color: rgb(21, 63, 65);
+       display: grid;
+       grid-template-columns: 1fr 1fr auto;
+   }
+   .container{
+    margin-top: 40px;
+   }
+   a {
+       text-decoration: none;
+       color: white;
+   }
+   a:hover{
+    color: black;
+   }
+
+   .jj {
+       font-size: 22px;
+   }
+
+   .brand {
+       display: inline;
+   }
+   
+   input {
+       border: none;
+       width: 70%;
+       text-align: center;
+       width: fit-content;
+       cursor: pointer;
+
+   }
+
+   th {
+       text-align: center;
+   }
+
+   td {
+       text-align: center;
+       width: fit-content;
+       cursor: pointer;
+   }
+   .ty{
+   text-align:center;
+   background-image:linear-gradient(red,blue);
+   color:transparent;
+   background-clip: text;
+   }
+   #menus{
+    position: absolute;
+    /* background-image: linear-gradient(to right,gray,white); */
+    background-color: lightgray;
+    margin-top: 0%;
+
+
+   }

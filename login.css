@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, skyblue, blueviolet, rgb(214, 122, 223));
+}
+
+.container {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.heado {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(green, red);
+    color: transparent;
+    background-clip: text;
+}
+
+label {
+    font-size: 18px;
+}
+
+.mk {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.forget{
+    color: black;
+}
